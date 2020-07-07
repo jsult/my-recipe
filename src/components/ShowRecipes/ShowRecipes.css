@@ -1,0 +1,20 @@
+.ShowRecipes {
+    width: 100%;
+    display: flex;
+justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  @media (min-width: 800px) {
+    .ShowRecipes {
+    flex-direction: row;
+    }
+  }
+
+p {
+    margin: 5px 10px;
+}
+
+.Buttons {
+    margin-left: 20px;
+}

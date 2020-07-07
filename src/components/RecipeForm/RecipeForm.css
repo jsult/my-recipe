@@ -1,0 +1,21 @@
+.RecipeForm {
+    margin-top: 20px;
+    width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.RecipeForm form {
+    width: 85%;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px #d5d2d9;
+    overflow: scroll; 
+  height: 85vh;
+ 
+}
+
+@media (min-width: 800px) {
+    .RecipeForm form {
+        width: 75%;
+    }
+}

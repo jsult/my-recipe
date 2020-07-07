@@ -1,0 +1,29 @@
+.Button {
+    outline: none;
+    cursor: pointer;
+    background-color: #4d4c7d;
+    color: white;
+    border: none;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    min-width: 70px;
+    height: 40px;
+}
+
+.Button:disabled {
+    background-color: #C7C6C6;
+    cursor: none;
+    border: 1px solid #ccc;
+    color: #888888;
+}
+
+
+.Category {
+    background-color: #666666;
+}
+
+.Category:hover {
+    background-color: #4d4c7d;;
+}
